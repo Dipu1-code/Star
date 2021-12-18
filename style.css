@@ -1,0 +1,142 @@
+
+
+@media screen  and (max-width:630px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+ 
+}
+
+
+@media screen  and (max-width:673px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+ 
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Write CSS code below */
+
+.main-content {
+    min-height: 1000px;
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    /* grid-template-rows: 30% 70%; */
+    grid-template-columns: 300px 700px;
+
+    
+  }
+
+  section{
+      display: block;
+  }
+
+  .left-section{
+      background-color: lightpink;
+ background-color: aqua;
+
+  }
+ 
+
+
+  .left-content{
+padding: 1rem;
+  }
+
+  .right-content{
+    padding: 1rem;
+  }
+  
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+    align-items:center;
+}
+
+  
+ .name{
+font-size:1.2rem ;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+padding: 0.8rem;
+letter-spacing: 0.02px; 
+ }
+
+ .designation{
+    font-size:1rem ;
+
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+ }
+
+ .description{
+    font-size:0.75rem;
+    text-align: center;
+   padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ 
+
+li.icon{
+    display:inline;
+    padding: 15px;
+    font-size: 25px;
+    align-items: center;
+}
+
+#phone,#address,#mail{
+   
+    font-size: 17px;
+}
+
+.skills{
+font-size: 0.85rem;
+text-align: center;
+text-transform: uppercase;
+padding: 1rem 0.5rem 1rem 0.5rem;
+
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom:0.5rem ;
+}
+
+.progress-bar{
+    border:1px black solid ;
+    height: 4px;
+}
+
+
+
+.right-section{
+    color: aliceblue;
+    background-color: grey;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+
+
